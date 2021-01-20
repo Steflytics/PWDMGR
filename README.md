@@ -7,3 +7,9 @@ PWDMGR is a password manager web-application written in Python, HTML, CSS, JavaS
 5. Integrated news-website via NewsAPI
 
 ![alt text](images/0.png)
+
+![alt text](images/1.png)
+
+![alt text](images/2.png)
+
+![alt text](images/3.png)
