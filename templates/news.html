@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block main %}
+<div class="container-fluid my-4 news">
+    <div class="row">
+        <div class="col">
+
+<div class="jumbotron jumbotron-fluid" style="background: url({{ articles[0]['urlToImage'] }});">
+  <div class="container">
+    <h1 style="background-color: white; color: black; padding: 15px;">{{articles[0]['title']}}</h1>
+      <p class="lead" style="background-color: white; color: black; padding: 15px; ">{{ articles[0]['description'] }}</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" style="color:white;" href="{{articles[0]['url']}}" role="button">Read article</a>
+  </p>
+  </div>
+</div>
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-md-8"><h2>{{ articles[1]['title'] }}</h2><img src="{{ articles[1]['urlToImage'] }}" class="img-fluid" alt="Responsive image"> <p class="lead"><a href="{{ articles[1]['url'] }}">{{ articles[1]['description'] }}</a></p></div>
+    <div class="col-6 col-md-4"><h2>{{ articles[2]['title'] }}</h2><img src="{{ articles[2]['urlToImage'] }}" class="img-fluid" alt="Responsive image"><p class="lead"><a href="{{ articles[2]['url'] }}">{{ articles[2]['description'] }}</a></p></div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-6 col-md-4"><h2>{{ articles[3]['title'] }}</h2><img src="{{ articles[3]['urlToImage'] }}" class="img-fluid" alt="Responsive image"><p class="lead"><a href="{{ articles[3]['url'] }}">{{ articles[3]['description'] }}</a></p></div>
+    <div class="col-6 col-md-4"><h2>{{ articles[4]['title'] }}</h2><img src="{{ articles[4]['urlToImage'] }}" class="img-fluid" alt="Responsive image"><p class="lead"><a href="{{ articles[4]['url'] }}">{{ articles[4]['description'] }}</a></p></div>
+    <div class="col-6 col-md-4"><h2>{{ articles[5]['title'] }}</h2><img src="{{ articles[5]['urlToImage'] }}" class="img-fluid" alt="Responsive image"><p class="lead"><a href="{{ articles[5]['url'] }}">{{ articles[5]['description'] }}</a></p></div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-6"><h2>{{ articles[6]['title'] }}</h2><img src="{{ articles[6]['urlToImage'] }}" class="img-fluid" alt="Responsive image"><p class="lead"><a href="{{ articles[6]['url'] }}">{{ articles[6]['description'] }}</a></p></div>
+    <div class="col-6"><h2>{{ articles[7]['title'] }}</h2><img src="{{ articles[7]['urlToImage'] }}" class="img-fluid" alt="Responsive image"><p class="lead"><a href="{{ articles[7]['url'] }}">{{ articles[7]['description'] }}</a></p></div>
+  </div>
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock %}
+
