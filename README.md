@@ -1,4 +1,4 @@
-# PWDMGR
+# PWDMGR - Password Manager Web-Application (Python, Flask)
 PWDMGR is a password manager web-application written in Python with Flask, HTML, CSS, JavaScript and SQL.
 
 # The Web-App has the following features:
